@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styling.css"/>
+
+    <title>Calculator Project</title>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="result" maxLength="10" disabled>
+      
+        <div class="button-area operators flex" id="buttons1">
+          <button class="operator" id="clear" type="button">C</button>
+          <button class="operator" data-value="+" id="add" type="button">+</button>
+          <button class="operator" data-value="-" id="subtract" type="button">-</button>
+          <button class="operator" data-value="*" id="multiply" type="button">*</button>
+          <button class="operator" data-value="/" id="divide" type="button">/</button>
+        </div>
+      
+        <div class="button-area p1 flex" id="buttons2">
+          <!--     <button class="number-buttons" type="button">0</button>
+          <button class="number-buttons" type="button">1</button>
+          <button class="number-buttons" type="button">2</button>
+          <button class="number-buttons" type="button">3</button>
+          <button class="number-buttons" type="button">4</button>
+          <button class="number-buttons" type="button">5</button>
+          <button class="number-buttons" type="button">6</button>
+          <button class="number-buttons" type="button">7</button>
+          <button class="number-buttons" type="button">8</button>
+          <button class="number-buttons" type="button">9</button> -->
+          <button class="operator" id="equal">=</button>
+        </div>
+      </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+body {
+  margin: ;
+}
+
+#calculator {
+  width: 25vw;
+  height: 60vh;
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlN18zZF9pbGx1c3RyYXRpb25fb2ZfdHJvcGljYWxfcmFpbmZvcmVzdF9iYWNrZ3JvdV85YWFhNTE2Ni0wOWRhLTRkMGEtOWIxMS1kMjNjNTM2ZDNhZGJfMS5qcGc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 150px 450px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2%;
+}
+
+.button-area {
+  /*   border: 1px solid lightgreen; */
+  /*   height: 80%; */
+  box-sizing: border-box;
+}
+
+.p1 {
+  width: 100%;
+  height: 60%;
+  background-color: ;
+  float: left;
+}
+
+#result {
+  width: 100%;
+  height: 15%;
+  background-image: linear-gradient(#dedfe0, gray);
+  border-radius: 10px;
+  font-size: 2rem;
+  font-family: Orbitron;
+}
+
+.number-buttons {
+  height: 20%;
+  flex: 0 0 30%;
+  border-radius: 15px;
+  border: none;
+  background-color: #679e76;
+  color: white;
+  font-size: 2.5rem;
+  box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.number-buttons:active {
+  transform: translateY(4px);
+}
+
+.number-buttons:hover {
+  cursor: pointer;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQTtWwdNEgMwGTeM8JpODOJO7CALxtmuPKpQ&usqp=CAU");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  /*   font-size: 5rem; */
+  /*   box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.5); */
+}
+
+.operators {
+  height: 25%;
+}
+
+.operator {
+  height: 50%;
+  flex: 0 0 18%;
+  border-radius: 15px;
+  border: none;
+  background-color: #679e76;
+  color: white;
+  font-size: 2.5rem;
+  box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.operator:hover {
+  cursor: pointer;
+}
+
+.operator:active {
+  transform: translateY(4px);
+}
+
+#equal {
+  height: 20%;
+  flex: 2 0 60%;
+  order: 10;
+}
+
+#clear {
+  background-color: #fa5137;
+}
